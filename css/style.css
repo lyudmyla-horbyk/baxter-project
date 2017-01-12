@@ -1,0 +1,726 @@
+@import url(reset.css);
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.black {
+    background-color: #1d1e1b;
+    width: 100%;
+    height: 10px;
+}
+
+.grey {
+    background-color: #dcdddb;
+    width: 100%;
+    height: 8px;
+}
+
+/*Початок блока header*/
+
+.header {
+    height: 157px;
+    position: relative;
+}
+
+.logo {
+    width: 202px;
+    height: 51px;
+    background: url('../images/logo.png') no-repeat;
+    position: absolute;
+    left: 76px;
+    top: 45px;
+}
+
+.logo a {
+    display: block;
+    height: 51px;
+    cursor: pointer;
+}
+
+.button {
+    width: 84px;
+    height: 172px;
+    background: url('../images/button.png') no-repeat;
+    position: absolute;
+    right: 43px;
+    top: -18px;
+}
+
+.button a {
+    display: block;
+    height: 172px;
+    cursor: pointer;
+}
+
+.nav {
+    width: 500px;
+    height: 15px;
+    position: absolute;
+    top: 57px;
+    left: 375px;
+}
+
+.nav li {
+    float: left;
+    margin-right: 27px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font: 16px Arial, sans-serif;
+    color: #3f3f3f;
+}
+
+.nav li a.active,
+.nav li a:hover {
+    color: #2c789c;
+}
+
+/*Кінець блока header*/
+
+/*Початок блока people*/
+
+.people {
+    height: 404px;
+    background: url('../images/peopleBg.jpg') 95px 69px no-repeat;
+    position: relative;
+}
+
+.peopleimg {
+    height: 383px;
+    width: 381px;
+    position: absolute;
+    right: 58px;
+    top: 1px;
+    background: url('../images/people.jpg') no-repeat;
+    z-index: 5;
+}
+
+.slogan {
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    bottom: 112px;
+    right: 633px;
+    text-align: right;
+}
+
+.slogan h1 {
+    font: 23px Arial, sans-serif;
+    color: #1d1e1b;
+    text-transform: uppercase;
+    letter-spacing: 0.47px;
+}
+
+.slogan p {
+    font: 16px Arial, sans-serif;
+    color: #2c789c;
+    margin-top: 2px;
+}
+
+.forline {
+    height: 96px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1024px;
+    background: url('../images/forLineBg.png') repeat-y;
+    z-index: 3;
+}
+
+/*Кінець блока people*/
+
+/*Початок блока colors*/
+
+.colors {
+    background: url('../images/colorsBg.png') repeat-y;
+    padding: 0 49px 0 39px;
+}
+
+.blue {
+    width: 294px;
+    float: left;
+    padding-left: 14px;
+    background: #2c789c url('../images/e1.png') 253px 8px no-repeat;
+}
+
+.blue a.active,
+.blue a:hover {
+    color: darkorange;
+}
+
+.yellow {
+    width: 302px;
+    float: left;
+    padding-left: 19px;
+    background: #e5b00d url('../images/e2.png') 265px 10px no-repeat;
+}
+
+.colors .yellow a {
+    margin-left: 12px;
+}
+
+.yellow a.active,
+.yellow a:hover {
+    color: darkorange;
+}
+
+.yellow > p {
+    padding-left: 6px;
+}
+
+.green {
+    width: 282px;
+    float: left;
+    padding-left: 25px;
+    background: #97ba15 url('../images/e3.png') 258px 11px no-repeat;
+}
+
+.green h2 {
+    margin-left: 3px;
+}
+
+.green a.active,
+.green a:hover {
+    color: darkorange;
+}
+
+.green > p {
+    padding-left: 4px;
+}
+
+.colors .green a {
+    margin-left: 8px;
+}
+
+.blue,
+.yellow,
+.green {
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    position: relative;
+}
+
+.colors h2 {
+    font: 19px Arial, sans-serif;
+    padding-bottom: 13px;
+    letter-spacing: 0.4px;
+    margin-top: 1px;
+    text-indent: 1px;
+}
+
+.colors p {
+    font: 16px Arial, sans-serif;
+    padding-bottom: 10px;
+    max-height: 64px;
+    overflow: hidden;
+    z-index: 11;
+    position: relative;
+    margin-left: 4px;
+    line-height: 16px;
+}
+
+.colors a {
+    text-decoration: none;
+    color: #525252;
+    font: 16px Arial, sans-serif;
+    display: block;
+    width: 99px;
+    height: 26px;
+    background-color: aliceblue;
+    line-height: 27px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.romb1,
+.romb2 {
+    width: 24px;
+    height: 76px;
+    background: url('../images/r1.png') no-repeat;
+    position: absolute;
+    right: -24px;
+    top: 37px;
+    z-index: 10;
+}
+
+.romb2 {
+    background-image: url('../images/r2.png');
+    top: 36px;
+}
+
+/*Кінець блока colors*/
+
+/*Початок блока чорно-білого*/
+
+.blackAndWhite {
+    background: url('../images/colorsBg.png') repeat-y;
+    position: relative;
+    padding: 17px 55px 30px 55px;
+}
+
+.bLeft {
+    background: url('../images/bLeft.png') no-repeat;
+    position: absolute;
+    width: 26px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+.bRight {
+    background: url('../images/bRight.png') no-repeat;
+    position: absolute;
+    width: 26px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+}
+
+.bBottom {
+    background: url('../images/bBottom.png') repeat-x;
+    bottom: 0;
+    width: 975px;
+    right: 25px;
+    height: 1px;
+    position: absolute;
+}
+
+.bContent {
+    height: 225px;
+    width: 620px;
+    float: left;
+}
+
+.bContent a.active,
+.bContent a:hover {
+    color: darkorange;
+}
+
+.bForm {
+    height: 225px;
+    width: 250px;
+    float: left;
+    margin-left: 19px;
+}
+
+.bForm a.active,
+.bForm a:hover {
+    color: darkorange;
+}
+
+.bContent h2,
+.bForm h2 {
+    font: 24px Arial, sans-serif;
+    color: #000000;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.bContent p.strong {
+    color: #1d1e1b;
+    font: 600 16px Arial, sans-serif;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-top: 9px;
+    margin-left: 4px;
+    letter-spacing: -0.19px;
+}
+
+.bContent p {
+    color: #7b7d78;
+    font: 16px Arial, sans-serif;
+    overflow: hidden;
+    margin-left: 4px;
+    line-height: 19px;
+}
+
+.bContent a {
+    text-decoration: none;
+    color: #b6b7b6;
+    font: 16px Arial, sans-serif;
+    display: block;
+    width: 99px;
+    height: 26px;
+    background-color: black;
+    line-height: 26px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 1px;
+}
+
+.bForm input {
+    width: 248px;
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #dedede;
+    margin-bottom: 11px;
+    margin-left: 2px;
+    color: #bababa;
+    font: 16px Arial, sans-serif;
+    padding-left: 15px;
+}
+
+.bForm a {
+    text-decoration: none;
+    color: #b6b7b6;
+    font: 16px Arial, sans-serif;
+    display: block;
+    width: 99px;
+    height: 26px;
+    background-color: black;
+    line-height: 26px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+/*Кінець блока чорно-білого*/
+
+/*Початок темного блока*/
+
+.dark {
+    padding: 13px 30px 14px 41px;
+    background-color: #1d1e1b;
+}
+
+.planning,
+.team,
+.blog {
+    outline: 0 solid #cccccc;
+    height: 403px;
+    float: left;
+    margin-top: 2px;
+}
+
+.planning,
+.team {
+    width: 289px;
+}
+
+.planning a.action,
+.planning a:hover {
+    color: darkorange;
+}
+
+.blog {
+    width: 297px;
+}
+
+.team,
+.blog {
+    margin-left: 39px;
+}
+
+.team a.active,
+.team a:hover {
+    color: darkorange;
+}
+
+.imgDark1 {
+    width: 289px;
+    height: 115px;
+    background-image: url('../images/dark1.jpg');
+}
+
+.imgDark2 {
+    width: 289px;
+    height: 115px;
+    background-image: url('../images/dark2.jpg');
+}
+
+.dark h3 {
+    height: 27px;
+    font: 18px Arial, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 0.4px;
+}
+
+.planning p,
+.team p {
+    height: 224px;
+    font: 13.34px 'Arial Narrow', sans-serif;
+    color: #94998f;
+    padding-top: 9px;
+    overflow: hidden;
+    line-height: 16px;
+}
+
+.planning h3 {
+    margin-left: -2px;
+}
+
+.planning a,
+.team a {
+    text-decoration: none;
+    color: #ffffff;
+    font: 16px Arial, sans-serif;
+    display: block;
+    width: 99px;
+    height: 26px;
+    background-color: #2c789c;
+    line-height: 26px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.post1 {
+    height: 123px;
+}
+
+.post2 {
+    height: 120px;
+}
+
+.post3 {
+    height: 126px;
+}
+
+.blog a.active,
+.blog a:hover {
+    color: darkorange;
+}
+
+.blogImg1 {
+    width: 111px;
+    height: 81px;
+    float: left;
+    background-image: url('../images/dark3.jpg');
+    margin-right: 11px;
+}
+
+.blogImg2 {
+    width: 111px;
+    height: 81px;
+    float: left;
+    background-image: url('../images/dark4.jpg');
+    margin-right: 11px;
+}
+
+.blogImg3 {
+    width: 111px;
+    height: 81px;
+    float: left;
+    background-image: url('../images/dark5.jpg');
+    margin-right: 11px;
+}
+
+.blog h4 {
+    font: bold 14.67px 'Arial Narrow', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.4px
+}
+
+.blog p {
+    font: 13.34px 'Arial Narrow', sans-serif;
+    color: #94998f;
+    line-height: 16px;
+}
+
+.blog a {
+    font: 13.34px 'Arial Narrow', sans-serif;
+    color: #2c789c;
+    text-decoration: underline;
+}
+
+.blog h3 {
+    margin-top: 1px;
+}
+
+.blog h3 span {
+    color: #2c789c;
+    text-transform: lowercase;
+    padding-left: 13px;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+/*Кінець темного блока*/
+
+/*Початок сірого блока*/
+
+.gray {
+    background-color: #2e302c;
+    padding: 15px 0 17px 40px;
+}
+
+.about {
+    width: 289px;
+    outline: 0 solid #cccccc;
+    float: left;
+}
+
+.about a.active,
+.about a:hover {
+    color: darkorange;
+}
+
+.partners {
+    width: 640px;
+    float: left;
+    margin-left: 40px;
+}
+
+.gray h2 {
+    font: 18px Arial, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    letter-spacing: 0.5px;
+}
+
+.gray p {
+    font: 13.34px 'Arial Narrow', sans-serif;
+    color: #94998f;
+    margin-bottom: 8px;
+    line-height: 16px;
+}
+
+.gray a {
+    font: 16px Arial, sans-serif;
+    color: #2c789c;
+    text-decoration: none;
+}
+
+.partner {
+    float: left;
+    width: 275px;
+    margin-top: -1px;
+}
+
+.partner li {
+    color: #94998f;
+    font: 13.34px 'Arial Narrow', sans-serif;
+    margin-bottom: 17px;
+    padding-left: 25px;
+    background: url('../images/plus.png') 0 4px no-repeat;
+}
+
+#p2 {
+    margin-left: 58px;
+}
+
+#p1 {
+    margin-left: 21px;
+}
+
+/*Кінець сірого блока*/
+
+/*Початок footer*/
+
+.footer {
+    height: 154px;
+    background-color: #131412;
+    position: relative;
+}
+
+.copy {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+.copy,
+.copy a {
+    font: 13.34px Arial, sans-serif;
+    color: #9b9d99;
+    text-decoration: none;
+}
+
+.footerNav {
+    width: 499px;
+    height: 30px;
+    position: absolute;
+    top: 77px;
+    right: 36px;
+    letter-spacing: 0.12px;
+}
+
+.footerNav li {
+    float: right;
+    margin-left: 23px;
+}
+
+.footerNav li a {
+    text-decoration: none;
+    font: 13px Arial, sans-serif;
+    color: #94998f;
+}
+
+.footerNav li a.active,
+.footerNav li a:hover {
+    color: #2c789c;
+}
+
+#fSocial {
+    height: 22px;
+    width: 190px;
+    position: absolute;
+    top: 111px;
+    right: 36px;
+}
+
+#fSocial li {
+    float: right;
+    margin-left: 5px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+
+#s1 {
+    width: 21px;
+    background: url('../images/s1.png') 0 -21px;
+    height: 21px;
+}
+
+#s1:hover {
+    background-position: 0 0;
+}
+
+#s2 {
+    width: 28px;
+    background: url('../images/s2.png') 0 -22px;
+
+}
+
+#s2:hover {
+    background-position: 0 0;
+}
+
+#s3 {
+    width: 22px;
+    background: url('../images/s3.png') 0 -22px;
+}
+
+#s3:hover {
+    background-position: 0 0;
+}
+
+#fSocial > li#s4 {
+    width: 57px;
+    height: 14px;
+    background: url('../images/footer--logo.jpg') 0 -14px;
+    margin-right: 6px;
+    margin-top: 4px;
+}
+
+#fSocial > li#s4:hover {
+    background-position: 0 0;
+}
+
+#fSocial li a {
+    height: 22px;
+    display: block;
+    cursor: pointer;
+}
